@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.newland.boss.ops.scan.mapper.ResourcesDao">
+
+    <resultMap id="BaseResultMap" type="com.newland.boss.ops.scan.bean.ResourceConfig">
+        <result column="PROCESS_ID" property="processId" jdbcType="VARCHAR"/>
+        <result column="TASK_ID"    property="taskId"    jdbcType="VARCHAR"/>
+        <result column="COLLECT_TYPE"    property="collectType"    jdbcType="INTEGER"/>
+        <result column="FILE_TYPE"    property="fileType"    jdbcType="VARCHAR"/>
+        <result column="FILE_NAME_FORMATE"    property="fileNameFormate"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_SYS"    property="remoteSys"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_ADDR"    property="remoteAddr"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_USER"    property="remoteUser"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_PWD"    property="remotePwd"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_PORT"    property="remotePort"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_PATH"    property="remotePath"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_PATH_TYPE"    property="remotePathType"    jdbcType="INTEGER"/>
+        <result column="REMOTE_PATH_BACK"    property="remotePathBack"    jdbcType="VARCHAR"/>
+        <result column="REMOTE_DEAL_TYPE"    property="remoteDealType"    jdbcType="INTEGER"/>
+        <result column="LOCAL_SYS"    property="localSys"    jdbcType="INTEGER"/>
+        <result column="LOCAL_PATH"    property="localPath"    jdbcType="VARCHAR"/>
+        <result column="LOCAL_PATH_TYPE"    property="localPathType"    jdbcType="INTEGER"/>
+        <result column="LOCAL_PATH_TMP"    property="localPathTmp"    jdbcType="VARCHAR"/>
+        <result column="FILE_DATE_START"    property="fileDateStart"    jdbcType="INTEGER"/>
+        <result column="FILE_DATE_LENTH"    property="fileDateLenth"    jdbcType="INTEGER"/>
+        <result column="FILE_SEQ_START" property="fileSeqStart" jdbcType="INTEGER"/>
+        <result column="FILE_SEQ_LENTH" property="fileSeqLenth" jdbcType="INTEGER"/>
+        <result column="FILE_SEQ_MIN"    property="fileSeqMin"    jdbcType="INTEGER"/>
+        <result column="FILE_SEQ_MAX"    property="fileSeqMax"    jdbcType="INTEGER"/>
+        <result column="OHTER_MSG"    property="ohterMsg"    jdbcType="VARCHAR"/>
+        <result column="DESCRIPTION"    property="description"    jdbcType="VARCHAR"/>
+        <result column="FLAG"    property="flag"    jdbcType="INTEGER"/>
+        <result column="INSERT_TIME"    property="insertTime"    jdbcType="DATE"/>
+        <result column="IS_LOG"    property="isLog"    jdbcType="INTEGER"/>
+
+    </resultMap>
+
+
+    <select id="queryCFGAll"  resultMap="BaseResultMap">
+        select * from CFG_TASK_INFO_COLLECTBATCH
+    </select>
+    <select id="queryCFGcount" resultType="java.lang.Integer">
+        select count(process_id) from CFG_TASK_INFO_COLLECTBATCH
+    </select>
+</mapper>

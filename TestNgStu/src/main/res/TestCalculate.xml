@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="false">
+    <test name="testDemo1">
+        <!-- xml文件用于批量执行用例  -->
+        <classes>
+
+            <class name="com.study.CalculateTest"></class>
+        </classes>
+    </test>
+</suite>

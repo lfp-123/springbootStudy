@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c9ac668-7cb5-42f7-b306-4a2389df4bc2" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/osgi-blueprint-server/target/" />
+    <ignored path="$PROJECT_DIR$/osgi-blueprint-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@10.1.0.145" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@10.1.0.145" type="feb32156:DbDataSourceImpl" />
+        <item name="RMC: schema" type="ac44c5e0:OracleImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@10.1.0.145" type="feb32156:DbDataSourceImpl" />
+        <item name="RMC: schema" type="ac44c5e0:OracleImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="822513385">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Driver" value="2" />
+          <entry key="MF" value="2" />
+          <entry key="TEMP_YJC" value="2" />
+          <entry key="class" value="4" />
+          <entry key="iml" value="4" />
+          <entry key="java" value="49" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="Database Element" value="2" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="JAVA" value="49" />
+          <entry key="Manifest" value="2" />
+          <entry key="SPI" value="2" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="530" />
+          <entry key="xml" value="152" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="530" />
+          <entry key="XML" value="152" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="api.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/osgi/demo1/api/api.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Impl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/osgi/demo1/server/Impl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="11" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlueClientBundle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/src/main/java/osgi/blueprint/client/BlueClientBundle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding>
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/OSGI-INF/blueprint/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerBundle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/osgi/demo1/server/ServerBundle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="24" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BluePrintServerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/src/main/java/osgi/blueprint/demo/BluePrintServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/OSGI-INF/blueprint/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Xml File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/src/osgi/demo/api/sa.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/serve.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/asd.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/sad.java" />
+        <option value="$PROJECT_DIR$/client/src/osgi/demo/client/ad.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/OSGI-INF.blueprint/blueprint.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/OSGI-INF/blueprint/blueprint.xml" />
+        <option value="$PROJECT_DIR$/api/src/osgi/demo/api/User.java" />
+        <option value="$PROJECT_DIR$/api/src/osgi/demo/api/Search.java" />
+        <option value="$PROJECT_DIR$/client/src/osgi/demo/client/UserClient.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/JDBCService.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/UserServiceBundle.java" />
+        <option value="$PROJECT_DIR$/OSGI-INF/blueprint/blueprint.xml" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/HelloServerBundle.java" />
+        <option value="$PROJECT_DIR$/client/src/osgi/demo/client/HelloClientBundle.java" />
+        <option value="$PROJECT_DIR$/serve/src/osgi/demo/serve/UserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/api/src/osgi/demo1/api/api.java" />
+        <option value="$PROJECT_DIR$/server/src/osgi/demo1/server/Impl.java" />
+        <option value="$PROJECT_DIR$/server/src/osgi/demo1/server/serverBundle.java" />
+        <option value="$PROJECT_DIR$/client/src/osgi/demo1/client/ClientBundle.java" />
+        <option value="$PROJECT_DIR$/server/src/osgi/demo1/server/ServerBundle.java" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-server/pom.xml" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-server/OSGI-INF/blueprint/beans.xml" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-client/pom.xml" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-client/src/main/java/osgi/blueprint/client/BlueClientBundle.java" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-server/src/main/java/osgi/blueprint/demo/BluePrintServerImpl.java" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-client/OSGI-INF/blueprint/beans.xml" />
+        <option value="$PROJECT_DIR$/osgi-blueprint-client/target/classes/OSGI-INF/blueprint/beans.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.2.1/apache-maven-3.2.1" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.2.1\apache-maven-3.2.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-bdemo-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-bdemo-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-bdemo-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="bundle" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-bdemo-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-bdemo-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-blueprint-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-blueprint-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="osgi-blueprint-client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="bundle" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-19" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>OSGi</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PackageAccessibility</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="OSGI-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="OSGI-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="blueprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="OSGI-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="osgi_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="osgi-blueprint-client" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="OSGI-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="blueprint" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590655502283" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../osgi_demo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.29084507" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\osgi_demo\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\osgi_demo\src\main\resources\OSGI-INF\blueprint" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="OSGi Bundles.Unnamed">
+    <configuration name="Unnamed" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="$PROJECT_DIR$/out/run.osgi/" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
+      <bundle name="api" startLevel="1" type="Module" startAfterInstallation="true" />
+      <bundle name="server" startLevel="1" type="Module" startAfterInstallation="true" />
+      <bundle name="osgi-blueprint-server" startLevel="1" type="Module" startAfterInstallation="true" />
+      <bundle name="client" startLevel="1" type="Module" startAfterInstallation="true" />
+      <bundle name="osgi-blueprint-client" startLevel="1" type="Module" startAfterInstallation="true" />
+      <framework instance="Equinox (3.15.200.v20200214-1600)" />
+      <additionalProperties startConsole="true" equinoxApplication="" systemPackages="" equinoxProduct="" debugMode="false" bootDelegation="" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c9ac668-7cb5-42f7-b306-4a2389df4bc2" name="Default Changelist" comment="" />
+      <created>1590389263174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590389263174</updated>
+      <workItem from="1590389265912" duration="5807000" />
+      <workItem from="1590454372459" duration="268000" />
+      <workItem from="1590455265221" duration="30385000" />
+      <workItem from="1590560170455" duration="11730000" />
+      <workItem from="1590631122243" duration="15408000" />
+      <workItem from="1590655823883" duration="89000" />
+      <workItem from="1590657427188" duration="15000" />
+      <workItem from="1590674495637" duration="8000" />
+      <workItem from="1590737668968" duration="68000" />
+      <workItem from="1590803697825" duration="707000" />
+      <workItem from="1590857059952" duration="24000" />
+      <workItem from="1590857233721" duration="7000" />
+      <workItem from="1590885242660" duration="14565000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="79081000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14002146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38428417" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33692142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27145922" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/OSGI-INF/blueprint/blueprint.xml" />
+    <entry file="file://$PROJECT_DIR$/serve/serve.iml" />
+    <entry file="file://$PROJECT_DIR$/client/src/osgi/demo/client/HelloClientBundle.java" />
+    <entry file="file://$PROJECT_DIR$/api/src/osgi/demo/api/IHelloService.java" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/serve.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OSGI-INF/blueprint/blueprint.xml" />
+    <entry file="das://e59eeecc-f46d-4f8f-b1ab-710f28695d92/schema/RMC/table/TEMP_YJC" />
+    <entry file="jar://E:/ChromeDownload/org.osgi.service.jdbc-1.0.0.jar!/META-INF/MANIFEST.MF" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/JDBCService.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/internal/loader/BundleLoader.java" />
+    <entry file="jar://E:/ChromeDownload/org.osgi.service.jdbc-1.0.0.jar!/OSGI-OPT/src/org/osgi/service/jdbc/DataSourceFactory.java" />
+    <entry file="jar://D:/app/pc/product/12.2.0/dbhome_1/jdbc/lib/ojdbc8.jar!/oracle/jdbc/driver/OracleDriver.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/oracle/ojdbc8/12.2.0.1.0/ojdbc8-12.2.0.1.0.jar!/oracle/jdbc/OracleDriver.class" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Class.java" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/util/Objects.java" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/container/ModuleRevision.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/util/NLS.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/container/ModuleRevisions.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/framework/eventmgr/EventManager.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/internal/framework/EquinoxContainerAdaptor.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/container/ModuleContainer.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/container/Module.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/internal/framework/BundleContextImpl.java" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/HelloServerBundle.java" />
+    <entry file="jar://D:/equinox-SDK-4.15/plugins/org.eclipse.osgi.source_3.15.200.v20200214-1600.jar!/org/eclipse/osgi/internal/framework/EquinoxBundle.java" />
+    <entry file="file://$PROJECT_DIR$/client/src/osgi/demo/client/UserClient.java" />
+    <entry file="file://$PROJECT_DIR$/serve/serve.iml" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/UserServiceBundle.java" />
+    <entry file="file://$PROJECT_DIR$/api/src/osgi/demo/api/IHelloService.java" />
+    <entry file="file://$PROJECT_DIR$/api/src/osgi/demo/api/User.java" />
+    <entry file="file://$PROJECT_DIR$/api/src/osgi/demo/api/Search.java" />
+    <entry file="file://$PROJECT_DIR$/client/src/osgi/demo/client/HelloClientBundle.java" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/HelloServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/serve/src/osgi/demo/serve/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/OSGI-INF/blueprint/blueprint.xml" />
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/src/main/java/osgi/blueprint/demo/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/osgi/demo1/client/ClientBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/osgi/demo1/api/api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/osgi/demo1/server/ServerBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/osgi/demo1/server/Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/OSGI-INF/blueprint/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="70" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/src/main/java/osgi/blueprint/client/BlueClientBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-server/src/main/java/osgi/blueprint/demo/BluePrintServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/target/classes/OSGI-INF/blueprint/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/target/classes/osgi/blueprint/client/BlueClientBundle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/osgi-blueprint-client/OSGI-INF/blueprint/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>OSGi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>plugins</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OSGi|osgi-blueprint-client</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29084507" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4269557" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

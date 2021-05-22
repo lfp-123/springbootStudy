@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><div ng-app="myApp" ng-controller="myCtrl"/> </title>
+</head>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+<body>
+        <p>选择品牌:</p>
+
+        <select ng-model="selectedBrand" ng-options="x.label for x in brands">
+        </select>
+
+        <h1>你选择的品牌是: {{selectedBrand.label}}</h1>
+        <h1>你选择的品牌ID是: {{selectedBrand.val}}</h1>
+
+    </div>
+        </body>
+        <script>
+            var app = angular.module('myApp', []);
+            app.controller('myCtrl', function($scope) {
+                $scope.brands = [
+                    {label : "--请选择--", val : "-1"},
+                    {label : "GROUP", val : 0},
+                    {label : "SNH48", val : 1},
+                    {label : "BEJ48", val : 2},
+                    {label : "GNZ48", val : 3},
+                    {label : "SHY48", val : 4},
+                    {label : "CKG48", val : 5},
+                ];
+                $scope.selectedBrand=$scope.brands[1];
+            });
+        </script>
+
+        <p>该实例演示了使用 ng-repeat 指令来创建下拉列表，选中的值是一个字符串。</p>
+
+
+
+</html>

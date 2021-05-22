@@ -1,0 +1,17 @@
+system_id: 1001
+app_name: csn
+app_ref_name:
+center:
+bbf:
+  configcenter:
+    #host: 10.1.8.64
+    host: 127.0.0.1
+    port: 9090
+    force: true
+    is_heartbeat: 1 #0是false 1是true 进行心跳监听
+    common:
+      writerIdleTimeSeconds: 10
+      reconnectDelaySeconds: 10
+      refresh_mode: 1
+      refresh_crontab: 0/60 * * * * ? # 每隔30s 执行一次
+      #refresh_crontab: 0 0 0 * * ?  # 每晚0点执行一次

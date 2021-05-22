@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+    <!--服务注册-->
+    <bean id="Impl" class="osgi.blueprint.demo.BluePrintServerImpl"></bean>
+    <service id="Calculative" ref="Impl" interface="osgi.demo1.api.api">
+
+
+    </service>
+</blueprint>

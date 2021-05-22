@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
+
+
+    <!--引用服务-->
+    <reference id="apiService" ref="osgi.demo1.api.api"></reference>
+    <!--实例化-->
+    <bean id="myBean" class="osgi.blueprint.client.BlueClientBundle">
+        <property name="api" ref="apiService"></property>
+    </bean>
+</blueprint>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.newland.boss.export.cdr.mapper.CdrOperationMapper">
+
+    <resultMap id="BaseResultMap" type="com.newland.boss.export.cdr.bean.QueryCdrOperation">
+        <result column="USER_ID" property="userId" jdbcType="INTEGER"/>
+        <result column="START_TIME" property="startTime" jdbcType="VARCHAR" />
+        <result column="END_TIME" property="endTime" jdbcType="VARCHAR" />
+        <result column="UPDATE_TIME" property="updateTime" jdbcType="DATE" />
+        <result column="STATUS" property="status" jdbcType="INTEGER" />
+        <result column="OPERATION_ID" property="operationId" jdbcType="INTEGER"/>
+        <result column="OPERATOR_ID" property="operatorId" jdbcType="INTEGER"/>
+        <result column="BATCH_HOST" property="batchHost" jdbcType="VARCHAR"/>
+        <result column="BATCH_FILE_NAME" property="batchFileName" jdbcType="VARCHAR"/>
+        <result column="BATCH_FILE_PATH" property="batchFilePath" jdbcType="VARCHAR"/>
+        <result column="operator_type" property="operatorType" jdbcType="INTEGER"/>
+
+
+    </resultMap>
+    <update id="updateCdrOperation" parameterType="com.newland.boss.export.cdr.bean.QueryCdrOperation">
+        update  CDR_IM_EXPORT_OPERATION
+      SET
+
+          update_time = sysdate,
+          status =  #{cdr.status}
+        where
+       operation_id = #{cdr.operationId}
+
+    </update>
+
+
+    <select id="queryCdrOperationList"  resultMap="BaseResultMap">
+        SELECT user_id,start_time,end_time,operation_id,operator_id,operator_type,batch_host,batch_file_path,batch_file_name
+        FROM  CDR_IM_EXPORT_OPERATION
+        where
+        status = 0 and ( operator_type = 1 or operator_type = 3 )
+    </select>
+
+
+</mapper>

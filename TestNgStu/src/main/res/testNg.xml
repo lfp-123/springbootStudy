@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="false">
+    <test name="testDemo1">
+        <!--<packages>-->
+        <!--<package name="com.testproj.Demo"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="com.study.TestDemo"></class>
+        </classes>
+    </test>
+</suite>
